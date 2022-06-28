@@ -1,86 +1,69 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import FireShipBar from '../components/FiresShipBar';
+import TopNavigation from "../components/TopNav.jsx";
+import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
+import BottomBar from '../components/BottomBar';
 
-const Home: NextPage = () => {
-  return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+const HomePage = ({}) => {
+    return (
+      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+        <div className="pt-20 grid grid-rows-2 grid-cols-4 grid-flow-col gap-4 mx-auto gap-y-20 gap-x-16">
+          <div></div>
+          <div></div>
+            <div className="inline-flex"> 
+            <div className='h-1/2 w-96'>
+              <img src='ItsDan.png' className='z-0 translate-x-4 translate-y-4  hover:transform hover:translate-x-4 hover:translate-y-4 rounded-full hover:rounded-full
+                transition-all duration-300 ease-linear border-4 hover:border-red-500 dark:hover:border-green-600'>
+                </img>
+                </div>
+            </div>
+            <div>
+              <h1 className="w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
+                My Tech Stack So Far
+              </h1>
+              <div className='h-10'></div>
+                <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-left transition-all duration-300 ease-linear">
+                Starting with HTML, CSS and JavaScript I learned the foundation of webdev. So far I also have experience with React, Redux, Next and Tailwind.
+                I look forward to learning more languages and frameworks that will make fine additions to my collection.
+                </div>
+            </div>
+            <div>
+              <div className='h-28'></div>
+              <h1 className="w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
+                Hello There!
+              </h1>
+              <div className='h-10'></div>
+                <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-left transition-all duration-300 ease-linear">
+                I'm Dan. I am a math graduate turned software developer. This is my portfolio website.
+                Ideally this website will display my skills, previous achievements and convince you to offer me a job. 
+                </div>
+            </div>
+            <div>
+              <div className='h-14'></div>
+            <div className='grid grid-rows-3 grid-cols-3 w-64  place-content-center text-slate-900 dark:text-green-500'>
+              < SiHtml5 className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiCss3 className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiJavascript className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiReact className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiNextdotjs className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              <div></div>
+              < SiTailwindcss className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+            </div>
+              </div>
         </div>
-      </main>
+      </div>
+            )
+        }
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+
+export default function Home() {
+
+  return (
+    <div>
+      <TopNavigation />
+      <FireShipBar />
+      <HomePage/>
+      <BottomBar/>
     </div>
-  )
+  );
 }
-
-export default Home
