@@ -70,7 +70,7 @@ const ContactMeBarIcon = ({ icon, text }) => {
 
 const SideBar = () => {
     return (
-        <div className="fixed top-16 left-0 h-screen w-16 m-0 flex flex-col bg-blue-500 dark:bg-gray-900 text-white  dark:text-blue-900 transition-all duration-300 ease-linear">
+        <div className="fixed top-16 left-0 h-screen w-16 m-0 flex flex-col bg-gray-500 dark:bg-gray-900 text-white  dark:text-blue-900 transition-all duration-300 ease-linear">
             <HomeBarIcon icon={<AiFillHome size="28"/>} text={"Home"}/>
             <PreviousWorkBarIcon icon={<AiFillEdit size="32"/>} text={"Previous Work"}/>
             <CVBarIcon icon={<AiFillProfile size="20"/>} text={"CV"} />

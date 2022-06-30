@@ -6,7 +6,7 @@ import BottomBar from '../components/BottomBar'
 const CVContainer = () => {
   return (
   <div className="bg-white dark:bg-gray-800 ">
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-1 text-center content-center">
           <div>
             <div>

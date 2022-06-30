@@ -19,12 +19,12 @@ const sendEmail = (e) => {
 const Projects = () => {
     return (
     <div className="bg-white dark:bg-gray-800 ">
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-3 max-w-1/4 mx-auto gap-y-20 gap-x-16 text-center content-center">
             <div></div>
           <div>
             <div className='space-y-2'>
-              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center">
+              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center">
                 I'd Love To Hear From You
               </h1>
                   <form onSubmit={sendEmail} >
@@ -52,7 +52,7 @@ const Projects = () => {
             <div></div>
           <div >
             <div className='space-y-2'>
-              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center p-2">
+              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center p-2">
                 Thank you for viewing my portfolio
               </h1>
               <div className="text-lg text-gray-900 dark:text-gray-300 w-full text-center transition-all duration-300 ease-linear">
@@ -70,7 +70,7 @@ const Projects2 = () => {
 
     return (
     <section className="bg-white dark:bg-gray-800 ">
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-3 md:grid-cols-4 max-w-1/4 mx-auto gap-y-20 gap-x-16 ">
           <GoogleMap />
         </div>
@@ -83,7 +83,7 @@ const Projects3 = () => {
 
     return (
     <section className="bg-white dark:bg-gray-800 ">
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-2 max-w-1/4 mx-auto gap-y-20 gap-x-16">
             <div className='h-96 w-full'></div>
           <div className="h-96"></div>

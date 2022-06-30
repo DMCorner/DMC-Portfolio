@@ -11,15 +11,15 @@ const Projects = () => {
     return (
 
     <div className="bg-white dark:bg-gray-800 ">
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-2 md:grid-cols-4 max-w-1/4 mx-auto gap-y-20 gap-x-16">
             <div className='w-full'></div>
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
+              <h1 className="w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
                 Sorting Visualizer
               </h1>
-            <div className="flex flex-row flex-wrap w-3/4 justify-center text-slate-900 dark:text-green-500">
+            <div className="flex flex-row flex-wrap w-3/4 justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-center transition-all duration-300 ease-linear">
@@ -43,15 +43,15 @@ const Projects = () => {
         </div>
       </div>
       {/* ------------------------------------------------------------------------------------------------------------------------------------------ */}
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-2 md:grid-cols-4 max-w-1/4 mx-auto gap-y-20 gap-x-16">
             <div className='w-full'></div>
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
+              <h1 className="w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
                 Business Website
               </h1>
-            <div className="flex flex-row flex-wrap w-3/4 justify-center text-slate-900 dark:text-green-500">
+            <div className="flex flex-row flex-wrap w-3/4 justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-center transition-all duration-300 ease-linear">
@@ -74,15 +74,15 @@ const Projects = () => {
         </div>
       </div>
       {/* ------------------------------------------------------------------------------------------------------------------------------------------------ */}
-      <div className="bg-blue-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
+      <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
         <div className="pt-20 grid grid-cols-2 md:grid-cols-4 max-w-1/4 mx-auto gap-y-20 gap-x-16">
             <div className='w-full'></div>
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="w-3/4 text-xl font-semibold bg-blue-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
+              <h1 className="w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
                 Portfolio Website
               </h1>
-            <div className="flex flex-row flex-wrap w-3/4 justify-center text-slate-900 dark:text-green-500">
+            <div className="flex flex-row flex-wrap w-3/4 justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
@@ -104,7 +104,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://www.daniel-michael-corner.com/"></a><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
+                <a href="https://dmc-portfolio.vercel.app/"></a><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
                 <a href="https://github.com/DMCorner/Portfolio"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
