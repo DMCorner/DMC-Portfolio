@@ -1,5 +1,5 @@
 import GoogleMap from '../components/GoogleMap'
-import FireShipBar from '../components/FiresShipBar'
+import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
 import BottomBar from '../components/BottomBar'
 import emailjs from '@emailjs/browser';
@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <div>
       <TopNavigation />
-      <FireShipBar className="z-10"/>
+      <SideBar className="z-10"/>
       <Projects/>
       <Projects2/>
       <Projects3/>

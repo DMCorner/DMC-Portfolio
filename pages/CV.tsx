@@ -1,8 +1,8 @@
-import FireShipBar from '../components/FiresShipBar'
+import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
 import React, { PureComponent } from "react"
 import BottomBar from '../components/BottomBar'
-/* eslint-disable */
+
 const CVContainer = () => {
   return (
   <div className="bg-white dark:bg-gray-800 ">
@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div>
       <TopNavigation />
-      <FireShipBar />
+      <SideBar />
       <CVContainer/>
       <BottomBar/>
     </div>

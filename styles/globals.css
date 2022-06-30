@@ -20,11 +20,11 @@ a {
 }
 
 @layer components {
-    .fireshipbar-icon {
+    .sidebar-icon {
         @apply relative flex items-center justify-center z-10 h-12 w-12 mt-2 mb-2 mx-auto bg-blue-700 dark:bg-gray-800 text-slate-900 dark:text-green-500 hover:bg-red-500 hover:text-white dark:hover:text-white dark:hover:bg-green-600 rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
     }
 
-    .fireshipbar-tooltip {
+    .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max left-16 rounded-md shadow-md text-white bg-blue-700 dark:bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
     }
 
@@ -60,10 +60,6 @@ a {
         @apply inline-flex items-center justify-evenly bottom-0 bg-blue-500 dark:bg-gray-900 w-full h-20 m-0 transition-all duration-300 ease-linear;
     }
 
-    .cv-holder {
-        @apply
-    }
-
     .webviewer {
         @apply flex max-h-screen min-h-fit h-screen;
     }
@@ -72,24 +68,8 @@ a {
         @apply absolute left-1/2 top-1/4 w-3/12 h-1/5 bg-slate-500
     }
 
-    .PW-image {
-        @apply flex bg-black
-    }
-
     .PW-icons {
         @apply inline-block bg-red-700 fill-black
-    }
-
-    .PW-title {
-        @apply flex
-    }
-
-    .PW-description {
-        @apply flex
-    }
-
-    .PW-links {
-        @apply flex
     }
 
     .PW-button {

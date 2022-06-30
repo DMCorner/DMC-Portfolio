@@ -1,4 +1,4 @@
-import FireShipBar from '../components/FiresShipBar'
+import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
 import { SiReact , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si"
 import { AiFillEye } from 'react-icons/ai'
@@ -37,8 +37,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://www.daniel-michael-corner-sorting-visualizer.com/"><button className='fireshipbar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/SortingVisualizerProject"><button className='fireshipbar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://www.daniel-michael-corner-sorting-visualizer.com/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
+                <a href="https://github.com/DMCorner/SortingVisualizerProject"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
       </div>
@@ -68,8 +68,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://www.air-vent-tech-ltd.co.uk/"><button className='fireshipbar-icon w-1/2 inline-flex'><AiFillEye size="28"/> Website Link</button></a>
-                <a href="https://github.com/DMCorner/Businesswebsite"><button className='fireshipbar-icon w-1/2 inline-flex'><SiGithub size="28"/> Github Code</button></a>
+                <a href="https://www.air-vent-tech-ltd.co.uk/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/> Website Link</button></a>
+                <a href="https://github.com/DMCorner/Businesswebsite"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/> Github Code</button></a>
           </div>
         </div>
       </div>
@@ -104,8 +104,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://www.daniel-michael-corner.com/"></a><button className='fireshipbar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
-                <a href="https://github.com/DMCorner/Portfolio"><button className='fireshipbar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://www.daniel-michael-corner.com/"></a><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
+                <a href="https://github.com/DMCorner/Portfolio"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ export default function Home() {
   return (
     <div>
       <TopNavigation />
-      <FireShipBar />
+      <SideBar />
       <Projects />
       <BottomBar/>
     </div>

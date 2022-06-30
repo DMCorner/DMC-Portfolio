@@ -7,9 +7,9 @@ const HomeBarIcon = ({ icon, text}) => {
     return (
         <div>
             <Link href="/" passHref> 
-            <button className="fireshipbar-icon group" >
+            <button className="sidebar-icon group" >
                 {icon}
-            <span class="fireshipbar-tooltip group-hover:scale-100">
+            <span class="sidebar-tooltip group-hover:scale-100">
                 {text}
             </span>
             </button>
@@ -23,9 +23,9 @@ const PreviousWorkBarIcon = ({ icon, text}) => {
     return (
         <div>
             <Link href="/Previous-Work" passHref> 
-            <button className="fireshipbar-icon group" >
+            <button className="sidebar-icon group" >
                 {icon}
-            <span class="fireshipbar-tooltip group-hover:scale-100">
+            <span class="sidebar-tooltip group-hover:scale-100">
                 {text}
             </span>
             </button>
@@ -39,9 +39,9 @@ const CVBarIcon = ({ icon, text}) => {
     return (
         <div>
             <Link href="/CV" passHref> 
-            <button className="fireshipbar-icon group" >
+            <button className="sidebar-icon group" >
                 {icon}
-            <span class="fireshipbar-tooltip group-hover:scale-100">
+            <span class="sidebar-tooltip group-hover:scale-100">
                 {text}
             </span>
             </button>
@@ -55,9 +55,9 @@ const ContactMeBarIcon = ({ icon, text }) => {
     return (
         <div>
             <Link href="/Contact-Me" passHref> 
-            <button className="fireshipbar-icon group" fill={router.pathname === '/Contact-Me' ? 'red' : 'blue'}>
+            <button className="sidebar-icon group" fill={router.pathname === '/Contact-Me' ? 'red' : 'blue'}>
                 {icon}
-            <path class="fireshipbar-tooltip group-hover:scale-100" >
+            <path class="sidebar-tooltip group-hover:scale-100" >
                 {text}
             </path>
             </button>
@@ -68,7 +68,7 @@ const ContactMeBarIcon = ({ icon, text }) => {
 
 
 
-const FireShipBar = () => {
+const SideBar = () => {
     return (
         <div className="fixed top-16 left-0 h-screen w-16 m-0 flex flex-col bg-blue-500 dark:bg-gray-900 text-white  dark:text-blue-900 transition-all duration-300 ease-linear">
             <HomeBarIcon icon={<AiFillHome size="28"/>} text={"Home"}/>
@@ -80,5 +80,5 @@ const FireShipBar = () => {
 }
 
 
-export default FireShipBar;
+export default SideBar;
 

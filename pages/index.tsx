@@ -1,4 +1,4 @@
-import FireShipBar from '../components/FiresShipBar';
+import SideBar from '../components/SideBar';
 import TopNavigation from "../components/TopNav.jsx";
 import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
 import BottomBar from '../components/BottomBar';
@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <div>
       <TopNavigation />
-      <FireShipBar />
+      <SideBar />
       <HomePage/>
       <BottomBar/>
     </div>
