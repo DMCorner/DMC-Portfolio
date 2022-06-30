@@ -13,7 +13,7 @@ const BottomBar = () => {
 const LinkedIn = () => {
   return (
       <a href="https://www.linkedin.com/in/daniel-corner-409128148/" className='fireshipbar-icon'>
-      <AiFillLinkedin    className='fireshipbar-icon'  ></AiFillLinkedin>
+      <AiFillLinkedin    className='sidebar-icon'  ></AiFillLinkedin>
       </a>
   )
     }
@@ -21,7 +21,7 @@ const LinkedIn = () => {
 const GitHub = () => {
   return (
     <a href="https://github.com/DMCorner" className='fireshipbar-icon'>
-      <AiFillGithub   className='fireshipbar-icon'  />
+      <AiFillGithub   className='sidebar-icon'  />
       </a>
   )
     }
