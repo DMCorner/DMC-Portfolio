@@ -104,7 +104,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://dmc-portfolio.vercel.app/"></a><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
+                <a href="https://dmc-portfolio.vercel.app"></a><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button>
                 <a href="https://github.com/DMCorner/DMC-Portfolio-Public"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
