@@ -4,7 +4,7 @@ import { SiReact , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "reac
 import { AiFillEye } from 'react-icons/ai'
 import BottomBar from '../components/BottomBar'
 import { StrictMode } from 'react'
-
+import { NextSeo } from 'next-seo'
 
 const Projects = () => {
 
@@ -118,6 +118,10 @@ const Projects = () => {
 export default function Home() {
   return (
     <div>
+      <NextSeo
+      title="Daniel Corner Previous Work"
+      description="Here is my Previous Work"
+    />
       <TopNavigation />
       <SideBar />
       <Projects />

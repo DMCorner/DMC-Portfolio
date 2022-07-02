@@ -2,6 +2,7 @@ import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
 import React, { PureComponent } from "react"
 import BottomBar from '../components/BottomBar'
+import { NextSeo } from 'next-seo'
 
 const CVContainer = () => {
   return (
@@ -31,6 +32,10 @@ export default function Home() {
 
   return (
     <div>
+      <NextSeo
+      title="Daniel Corner CV"
+      description="Here is my CV"
+    />
       <TopNavigation />
       <SideBar />
       <CVContainer/>

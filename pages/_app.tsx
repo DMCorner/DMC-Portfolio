@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import {store} from '../store'
 import { Provider } from 'react-redux'
 import React from 'react'
+import { NextSeo } from 'next-seo'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

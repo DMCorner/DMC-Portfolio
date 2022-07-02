@@ -3,6 +3,7 @@ import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
 import BottomBar from '../components/BottomBar'
 import emailjs from '@emailjs/browser';
+import { NextSeo } from 'next-seo'
 
 const sendEmail = (e) => {
     e.preventDefault();
@@ -104,6 +105,10 @@ const Projects3 = () => {
 export default function Home() {
   return (
     <div>
+      <NextSeo
+      title="Daniel Corner Contact Me"
+      description="Here is my Contact Me page"
+    />
       <TopNavigation />
       <SideBar className="z-10"/>
       <Projects/>

@@ -2,6 +2,7 @@ import SideBar from '../components/SideBar';
 import TopNavigation from "../components/TopNav.jsx";
 import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
 import BottomBar from '../components/BottomBar';
+import { NextSeo } from 'next-seo'
 
 const HomePage = ({}) => {
     return (
@@ -60,6 +61,10 @@ export default function Home() {
 
   return (
     <div>
+      <NextSeo
+      title="Daniel Corner Home Page"
+      description="Here is my Home Page"
+    />
       <TopNavigation />
       <SideBar />
       <HomePage/>
