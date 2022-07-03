@@ -23,7 +23,7 @@ const HomePage = ({}) => {
               </h1>
               <div className='h-10'></div>
                 <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-left transition-all duration-300 ease-linear">
-                Starting with HTML, CSS and JavaScript I learned the foundations of webdev. So far I also have experience with React, Redux, Next and Tailwind.
+                Starting with HTML, CSS and JavaScript I learned the foundations of webdev. So far I also have experience with React, Next and Tailwind.
                 I look forward to learning more languages and frameworks that will make fine additions to my collection.
                 </div>
             </div>
@@ -45,9 +45,9 @@ const HomePage = ({}) => {
               < SiCss3 className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
               < SiJavascript className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
               < SiReact className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-              < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              {/* < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/> */}
               < SiNextdotjs className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-              <div></div>
+              {/* <div></div> */}
               < SiTailwindcss className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
             </div>
               </div>
