@@ -6,7 +6,7 @@ function Increment() {
 
     return (
         <div>
-            <button onClick={() => dispatch(increment())} class="bg-indigo-500">Increment state</button>
+            <button onClick={() => dispatch(increment())}>Increment state</button>
         </div>
     )
 }
