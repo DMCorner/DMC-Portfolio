@@ -56,7 +56,7 @@ const Projects = () => {
               <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center p-2">
                 Thank you for viewing my portfolio
               </h1>
-              <div className="text-9xl text-gray-900 dark:text-gray-300 w-full text-center transition-all duration-300 ease-linear">
+              <div className="text-2xl text-gray-900 dark:text-gray-300 w-full text-center transition-all duration-300 ease-linear">
                  I look forward to reading your message. Until then, I shall be coding in my "office" in Hemel Hempstead.
                 </div>
             </div>
