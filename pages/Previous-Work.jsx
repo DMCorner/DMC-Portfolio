@@ -120,13 +120,12 @@ const Projects = () => {
               </h1>
             <div className="flex flex-row flex-wrap w-3/4 justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
-              {/* < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
+              < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 w-3/4 text-center transition-all duration-300 ease-linear">
-              This project was my first venture into modern webdev. Though a challenge at first I was happy to learn the strengths and capabilities of
-               current frameworks allowing my skill set to become closer to a professional webdev role.
+              A cinema app that uses OMDb API to pull movie data from IMDb into a redux store. Still a work in progress.
                 <div className="h-5 w-5 mx-4 my-4"/>
               </div>
             </div>
@@ -134,14 +133,14 @@ const Projects = () => {
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className='h-1/2 w-96'>
-              <img src='por1.png' className='h-full w-full translate-x-4 translate-y-4  hover:transform hover:translate-x-4 hover:translate-y-4 rounded-3xl hover:rounded-xl
+              <img src='cin1.png' className='h-full w-full translate-x-4 translate-y-4  hover:transform hover:translate-x-4 hover:translate-y-4 rounded-3xl hover:rounded-xl
                 transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://dmc-portfolio.vercel.app"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/DMC-Portfolio-Public"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://cinema-third-main.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
+                <a href="https://github.com/DMCorner/cinema-third-main"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
       </div>
