@@ -9,16 +9,16 @@ import { AiFillEdit, AiFillHome, AiFillMail, AiFillProfile} from 'react-icons/ai
 const HomePage = () => {
     return (
       <div className="bg-gray-300 dark:bg-gray-700 transition-all duration-300 ease-linear">
-        <img src="matrix-binary.jfif" alt="Image Not Found" className='w-full h-screen z-10 absolute'></img>
+        <img src="Circuit.jpg" alt="Image Not Found" className='w-full h-screen z-10 absolute'></img>
         <div className='absolute z-50 left-[10%] bottom-[5%]'>
-          <div className='inline-block text-center text-5xl text-cyan-400 font-bold font-mono'>{'<DANIEL CORNER>'}
+          <div className='inline-block text-center text-5xl text-cyan-400 font-bold font-sans'>{'<DANIEL CORNER>'}
           </div>
-          <div className=' text-center text-3xl text-cyan-600'>Project Portfolio</div>
+          <div className=' text-center text-3xl text-cyan-500'>Project Portfolio</div>
           <div></div>
           <div className=''>
             <Link href="/Home" passHref> 
-            <button className="sidebar-icon group w-20" >
-                {"Enter"}
+            <button className="sidebar-icon group w-28 font-bold" >
+                {"WELCOME"}
             {/* <span className="sidebar-tooltip group-hover:scale-100">
                 {"Home"}
             </span> */}
