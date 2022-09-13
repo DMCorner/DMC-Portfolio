@@ -6,7 +6,7 @@ import Link from 'next/link';
 const HomeBarIcon = ({ icon, text}) => {
     return (
         <div>
-            <Link href="/" passHref> 
+            <Link href="/Home" passHref> 
             <button className="sidebar-icon group" >
                 {icon}
             <span class="sidebar-tooltip group-hover:scale-100">

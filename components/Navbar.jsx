@@ -4,7 +4,7 @@ const NavAvatar = () => {
   return (
     <div className="relative min-w-[24px] md:min-w-[32px] h-[24px] md:h-[32px]">
       <Image
-        src="/NyanNyan.png"
+
         alt="person avatar"
         priority
         quality={100}
@@ -21,7 +21,7 @@ const NavLogo = () => {
       <a>
         <div className="relative min-w-[25px] md:min-w-[32px] h-[20px] md:h-[25.6px]">
           <Image
-            src="/Belle.png"
+
             alt="movie logo icon"
             priority
             quality={100}

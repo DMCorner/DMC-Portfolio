@@ -59,6 +59,10 @@ const Title = () => {
     return (
     <h5 className='title-text '>Home</h5>
   )}
+  if (router.pathname === "/Home") {
+    return (
+    <h5 className='title-text '>Home</h5>
+  )}
   if (router.pathname === "/Previous-Work") {
     return (
     <h5 className='title-text '>Previous Work</h5>
