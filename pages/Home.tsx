@@ -2,7 +2,7 @@ import SideBar from '../components/SideBar';
 import TopNavigation from "../components/TopNav.jsx";
 import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
 import BottomBar from '../components/BottomBar';
-import { NextSeo } from 'next-seo'
+import Head from 'next/head';
 
 const HomePage = ({}) => {
     return (
@@ -61,10 +61,14 @@ export default function Home() {
 
   return (
     <div>
-      <NextSeo
-      title="Daniel Corner Home Page"
-      description="Here is my Home Page"
-    />
+     <Head>
+        
+        <link rel="icon" href="/favicon.ico" />
+				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+				<link rel="manifest" href="/site.webmanifest"></link>
+      </Head>
       <TopNavigation />
       <SideBar />
       <HomePage/>
