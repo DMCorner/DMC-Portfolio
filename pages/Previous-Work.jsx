@@ -30,10 +30,11 @@ const Projects = () => {
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
+              <a href="https://www.daniel-michael-corner-sorting-visualizer.com/"><button className=''>
               <img src='sor1.png' className='block
                z-0 h-full w-full rounded-3xl hover:rounded-xl
                 transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
-                </img>
+                </img></button></a>
                 </div>
             </div>
             <div className='h-10 w-full'></div>
@@ -61,9 +62,11 @@ const Projects = () => {
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
-              <img src='avt1.png' className=' rounded-3xl hover:rounded-xl
+              <a href="https://www.air-vent-tech-ltd.co.uk/"><button className=''>
+              <img src='avt1.png' className=' rounded-3xl hover:rounded-xl hover:scale-110
                 transition-all duration-300 ease-linear border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
+                </button></a>
                 </div>
             </div>
             <div className='h-10'></div>
@@ -96,9 +99,11 @@ const Projects = () => {
           <div className="">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
+               <a href="https://dmc-portfolio-eta.vercel.app"><button className=''>
               <img src='por1.png' className='h-full w-full rounded-3xl hover:rounded-xl
                 transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
+                </button></a>
                 </div>
             </div>
             <div className='h-10 w-full'></div>
@@ -130,9 +135,11 @@ const Projects = () => {
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
+              <a href="https://cinema-third-main.vercel.app/"><button className=''>
               <img src='cin1.png' className='h-full w-full rounded-3xl hover:rounded-xl
                 transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
+                </button></a>
                 </div>
             </div>
             <div className='h-10 w-full'></div>
@@ -141,6 +148,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      
     </div>
 
     )
