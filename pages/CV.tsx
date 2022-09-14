@@ -1,6 +1,6 @@
 import SideBar from '../components/SideBar'
 import TopNavigation from "../components/TopNav.jsx"
-import React, { PureComponent } from "react"
+import React from "react"
 import BottomBar from '../components/BottomBar'
 import Head from 'next/head'
 

@@ -47,7 +47,6 @@ const HomePage = ({}) => {
               < SiReact className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
               {/* < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/> */}
               < SiNextdotjs className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-              {/* <div></div> */}
               < SiTailwindcss className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
             </div>
               </div>
