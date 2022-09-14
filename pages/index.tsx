@@ -10,14 +10,16 @@ const HomePage = () => {
     return (
       <div className="bg-gray-300 dark:bg-gray-700 transition-all duration-300 ease-linear">
         <img src="Circuit.jpg" alt="Image Not Found" className='w-full h-screen z-10 absolute'></img>
-        <div className='absolute z-50 left-[10%] bottom-[5%]'>
-          <div className='inline-block text-center text-5xl text-cyan-400 font-bold font-sans'>{'<DANIEL CORNER>'}
+        <div className='absolute text-center z-50 bottom-[50%] w-1/2 left-1/4 border-cyan-600 border-4 bg-gradient-to-b  from-black to-transparent
+         rounded-3xl'>
+          <div className=' text-center text-7xl text-cyan-400 font-bold font-sans '>{'<DANIEL CORNER>'}
           </div>
-          <div className=' text-center text-3xl text-cyan-500'>Project Portfolio</div>
+          <div className=' text-center text-3xl text-white   from-black to-transparent
+         rounded-3xl'>Project Portfolio</div>
           <div></div>
           <div className=''>
             <Link href="/Home" passHref> 
-            <button className="sidebar-icon group w-28 font-bold" >
+            <button className="sidebar-icon group w-1/3 font-bold bg-black border-cyan-600 border-4 hover:bg-cyan-600 hover:text-black font-sans" >
                 {"WELCOME"}
             {/* <span className="sidebar-tooltip group-hover:scale-100">
                 {"Home"}
