@@ -83,7 +83,7 @@ const Projects = () => {
               <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
                 Portfolio Website
               </h1>
-            <div className="flex flex-row flex-wrap w-3/4 justify-center text-blue-400 dark:text-green-500">
+            <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               {/* < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
