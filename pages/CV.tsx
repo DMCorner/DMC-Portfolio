@@ -11,7 +11,7 @@ const CVContainer = () => {
         <div className="pt-20 grid grid-cols-1 text-center content-center">
           <div>
             <div>
-                <iframe src="DanielCornerCVWD.pdf" className='inline-flex h-screen w-9/12' />
+                <iframe src="DanielCornerCVSE.pdf" className='inline-flex h-screen w-9/12' />
             </div>
           </div>
           <div className="w-full">
