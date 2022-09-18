@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
-              <a href="https://www.daniel-michael-corner-sorting-visualizer.com/"><button className=''>
+              <a href="https://sortvis-ebon.vercel.app/"><button className=''>
               <img src='sor1.png' className='block
                z-0 h-full w-full rounded-3xl hover:rounded-xl
                 transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
@@ -37,8 +37,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://www.daniel-michael-corner-sorting-visualizer.com/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/SortingVisualizerProject"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://sortvis-ebon.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
+                <a href="https://github.com/DMCorner/sortvis"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
           </div>
         </div>
       </div>
