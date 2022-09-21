@@ -25,7 +25,8 @@ const Projects = () => {
             <div></div>
           <div>
             <div className='space-y-2'>
-              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center">
+              <h1 className=" inline-grid w-3/4 text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center content-center
+              ">
                 I'd Love To Hear From You
               </h1>
                   <form onSubmit={sendEmail} >

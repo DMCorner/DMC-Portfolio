@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-            colors: {
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
+      colors: {
         primary_red: '#FC4747', // (movie-icon) (login-signup button) (nav-section-icon:hover)
         primary_background: '#10141E', // (body-background)
         secondary_background: '#161D2F', // (side-bar-background) (login-signup background)

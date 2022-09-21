@@ -20,7 +20,8 @@ const Projects = () => {
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
-              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear ">
+              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
                 My first ReactJS project. Visualizes Merge, Heap, Quick and Bubble sort on an array of length 100. 
                 This project mostly developed my basic JS skills along with getting comfortable with animations in react and updating the virtualDOM.
               </div>
@@ -53,8 +54,10 @@ const Projects = () => {
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
-              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear">
-                A prototype website for a small business. The main features are an image slider and an email submission other than that this project allowed me to develop my basic HTML and CSS skills.
+              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
+                A prototype website for a small business. The main features are an image slider and an email submission other than that
+                 this project allowed me to develop my basic HTML and CSS skills.
               </div>
             </div>
           </div>
@@ -88,10 +91,11 @@ const Projects = () => {
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
-              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear">
+              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
               This project was my first venture into modern webdev. Though a challenge at first I was happy to learn the strengths and capabilities of
                current frameworks allowing my skill set to become closer to a professional webdev role.
-                <div className="h-5 w-5 mx-4 my-4"/>
+                
               </div>
             </div>
           </div>
@@ -116,7 +120,9 @@ const Projects = () => {
         <div className="pt-20 grid grid-cols-2 p-10">
           <div className="inline-flex flex-col px-10">
             <div>
-              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
+              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 
+              rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear
+              ">
                 Cinema Website
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
@@ -125,9 +131,11 @@ const Projects = () => {
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
-              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear">
-              A cinema app that uses OMDb API to pull movie data from IMDb into a redux store. Still a work in progress.
-                <div className="h-5 w-5 mx-4 my-4"/>
+              <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
+              A movie and series browsing website built with NextJS, TailwindCSS, Redux, React-Slick Carousel and OMDb API.
+              The website uses OMDb to pull movie and series data from IMDb into a Redux store which is then displayed on the page.
+                
               </div>
             </div>
           </div>
