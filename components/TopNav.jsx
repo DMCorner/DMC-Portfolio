@@ -6,7 +6,8 @@ import { StrictMode } from 'react';
 const TopNavigation = () => {
   return (
     <div className='top-navigation fixed z-50'>
-      <DanFace /> 
+      
+      {/* <DanFace />  */}
       <Title />
       <ThemeIcon />
     </div>
@@ -41,16 +42,18 @@ const ThemeIcon = () => {
 
 //The above is the source of the hydration errors. Code runs fine but with warnings. No luck fixing so far.
 
-const DanFace = () => {
-  return (
-    <div className="top-navigation-icon group">
-      <img src="ItsDan.png" className='top-navigation-icon h-14 w-14 rounded-full'  />
-      <div className="top-navigation-tooltip group-hover:scale-100 top-11">
-        {"Hire Me Please :)"}
-        </div>
-        </div>
-  )
-    }
+// const DanFace = () => {
+//   return (
+//     <div className="top-navigation-icon group">
+//       <img src="ItsDan.png" className='top-navigation-icon h-14 w-14 rounded-full'  />
+//       <div className="top-navigation-tooltip group-hover:scale-100 top-11">
+//         {"Hire Me Please :)"}
+//         </div>
+//         </div>
+//   )
+// }
+
+
 
 
 const Title = () => {
