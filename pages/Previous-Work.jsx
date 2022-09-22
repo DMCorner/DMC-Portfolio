@@ -86,7 +86,7 @@ const Projects = () => {
                 Portfolio Website
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
-              < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
+              {/* < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
               {/* < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
@@ -126,7 +126,7 @@ const Projects = () => {
                 Cinema Website
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
-              < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
+              {/* < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
               < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
