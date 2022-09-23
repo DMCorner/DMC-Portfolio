@@ -38,8 +38,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://sortvis-ebon.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/sortvis"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://sortvis-ebon.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/sortvis"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
@@ -72,8 +72,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10'></div>
-                <a href="https://www.air-vent-tech-ltd.co.uk/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/> Website Link</button></a>
-                <a href="https://github.com/DMCorner/Businesswebsite"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/> Github Code</button></a>
+                <a href="https://www.air-vent-tech-ltd.co.uk/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/Businesswebsite"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
@@ -110,8 +110,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://dmc-portfolio-eta.vercel.app"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/DMC-Portfolio-Public"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://dmc-portfolio-eta.vercel.app"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/DMC-Portfolio-Public"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
@@ -150,8 +150,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='h-10 w-full'></div>
-                <a href="https://cinema-third-main.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>Website Link</button></a>
-                <a href="https://github.com/DMCorner/cinema-third-main"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>Github Code</button></a>
+                <a href="https://cinema-third-main.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/cinema-third-main"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
