@@ -62,21 +62,21 @@ const CVBarIcon = ({ icon, text}) => {
             )
         }
 
-const ContactMeBarIcon = ({ icon, text }) => {
-    const router = useRouter()
-    return (
-        <div>
-            <Link href="/Contact-Me" passHref> 
-            <button className="sidebar-icon group" fill={router.pathname === '/Contact-Me' ? 'red' : 'blue'}>
-                {icon}
-            <path class="sidebar-tooltip group-hover:scale-100" >
-                {text}
-            </path>
-            </button>
-        </Link>
-        </div>
-            )
-        }
+// const ContactMeBarIcon = ({ icon, text }) => {
+//     const router = useRouter()
+//     return (
+//         <div>
+//             <Link href="/Contact-Me" passHref> 
+//             <button className="sidebar-icon group" fill={router.pathname === '/Contact-Me' ? 'red' : 'blue'}>
+//                 {icon}
+//             <path class="sidebar-tooltip group-hover:scale-100" >
+//                 {text}
+//             </path>
+//             </button>
+//         </Link>
+//         </div>
+//             )
+//         }
 
 
 
@@ -87,7 +87,7 @@ const SideBar = () => {
             <HomeBarIcon icon={<AiFillHome size="28"/>} text={"Home"}/>
             <PreviousWorkBarIcon icon={<AiFillEdit size="32"/>} text={"Previous Work"}/>
             <CVBarIcon icon={<AiFillProfile size="20"/>} text={"CV"} />
-            <ContactMeBarIcon icon={<AiFillMail size="20"/> } text={"Contact Me"}/>
+            {/* <ContactMeBarIcon icon={<AiFillMail size="20"/> } text={"Contact Me"}/> */}
             </div>
     )
 }
