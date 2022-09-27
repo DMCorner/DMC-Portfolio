@@ -161,6 +161,7 @@ export default function Home() {
   return (
     <div>
      <Head>
+        <title>Daniel Corner: Home</title>
         
         <link rel="icon" href="/favicon.ico" />
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
