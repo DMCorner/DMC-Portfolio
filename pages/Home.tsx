@@ -3,7 +3,8 @@ import TopNavigation from "../components/TopNav.jsx";
 import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
 import BottomBar from '../components/BottomBar';
 import Head from 'next/head';
-import { AiFillGithub, AiFillLinkedin, AiFillMail , AiFillPhone} from "react-icons/ai"
+import { AiFillGithub, AiFillLinkedin, AiFillMail , AiFillPhone, AiFillEdit} from "react-icons/ai"
+import Link from 'next/link';
 
 
 const HomePage = ({}) => {
@@ -14,7 +15,7 @@ const HomePage = ({}) => {
         <div className=" pl-20 pt-14 grid grid-rows-2 grid-cols-5 grid-flow-col">
           <div></div>
           <div></div>
-            <div className=' h-72 px-5'>
+          <div className=' h-72 px-5'>
               <div className='h-20'></div>
               {/* <div className="wiggle"> */}
               <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear"> 
@@ -26,9 +27,9 @@ const HomePage = ({}) => {
                 Hello, I'm Daniel Corner. I am a math graduate turned software developer. This is my portfolio website.
                 Ideally this website will display my skills, previous achievements to a degree that employers deem desirable. 
                 </div>
-            </div>
-            <div>
-              <div className='h-80 px-5'>
+          </div>
+          <div>
+              <div className=' px-5'>
               
               <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
                 Contact Me
@@ -78,8 +79,8 @@ const HomePage = ({}) => {
 
 
                 </div>
-            </div>
-            <div className=' h-64 px-5'>
+          </div>
+          <div className=' h-64 px-5'>
               <div className='h-20'></div>
                <h1 className="p-5 text-3xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
                My Tech Stack So Far
@@ -89,18 +90,40 @@ const HomePage = ({}) => {
                 Starting with HTML, CSS and JavaScript I learned the foundations of webdev. So far I also have experience with React, Next and Tailwind.
                 I look forward to learning and mastering as many languages and frameworks as I can.
                 </div>
+
+                
+
                 <div className='h-5'></div>
+                
+
+
+          </div>
+          <div>
+            <div className=' h-64 px-5'>
+                <div className='h-20'>
+                  <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
+                Previous Work
+              </h1>
+                  
+                </div>
+                <Link href="/Previous-Work" passHref> 
+                  <button className="sidebar-icon w-1/2 inline-flex left-1/4" >
+                    <AiFillEdit size="32"/> Click Me 
+                    
+                  </button>
+                  </Link>
+
+              <div className='h-5'></div>
                 <div className='px-5 grid grid-rows-3 grid-cols-3  place-content-center text-blue-400 dark:text-green-500'>
-              < SiHtml5 className="h-16 w-16 px-2 transition-all duration-300 ease-linear "/>
-             < SiCss3 className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-             < SiJavascript className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-             < SiReact className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiHtml5 className="h-24 w-24 px-2 transition-all duration-300 ease-linear "/>
+             < SiCss3 className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
+             < SiJavascript className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
+             < SiReact className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
              {/* < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/> */}
-              < SiNextdotjs className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
-             < SiTailwindcss className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/>
+              < SiNextdotjs className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
+             < SiTailwindcss className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
                </div>
-            </div>
-            <div>
+                </div>
               
             </div>
             <div className=' px-5'>

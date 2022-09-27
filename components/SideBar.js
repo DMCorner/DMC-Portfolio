@@ -35,13 +35,13 @@ const PreviousWorkBarIcon = ({ icon, text}) => {
     return (
         <div>
             <Link href="/Previous-Work" passHref> 
-            <button className="sidebar-icon group" >
-                {icon}
-            <span class="sidebar-tooltip group-hover:scale-100">
-                {text}
-            </span>
-            </button>
-        </Link>
+                <button className="sidebar-icon group" >
+                    {icon}
+                    <span class="sidebar-tooltip group-hover:scale-100">
+                        {text}
+                    </span>
+                </button>
+            </Link>
         </div>
             )
         }
