@@ -39,38 +39,38 @@ const HomePage = ({}) => {
               <div className='grid grid-cols-2 grid-rows-4 space-y-5'>
 
                 
-                <div className="h-12 w-20 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl
+                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl
                 translate-y-5">
                  <AiFillMail size="30" className='translate-x-3 -translate-y-1'/>
                 </div>
-                <div className= "sidebar-icon rounded-l-none hover:rounded-l-none  w-[250px] -translate-x-20 transition-all  duration-300 ease-linear p-4 ">
+                <div className= "sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
                    <a href="mailto:danielmichaelcorner@gmail.com" className='w-full inline-flex justify-center'>
                   Danielmichaelcorner@gmail.com
                   </a></div>
                 
-                <div className="h-12 w-20 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl">
+                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl">
                   <AiFillPhone size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[250px] -translate-x-20 transition-all  duration-300 ease-linear p-4 ">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
                    <a href="tel:+07476889388" className='w-full inline-flex justify-center'>
                    07476-889388</a>
                 </div>
                 
-                <div className="h-12 w-20 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
+                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
                   <AiFillLinkedin size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
 
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[250px] -translate-x-20  text-left transition-all duration-300 ease-linear ">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24  text-left transition-all duration-300 ease-linear ">
                   <a href="https://www.linkedin.com/in/daniel-corner-409128148/ " target="_blank" className='w-full inline-flex justify-center'>
                   Daniel Corner
                   </a>
                 </div>
                 
-                <div className="h-12 w-20 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
+                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
                   <AiFillGithub size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
 
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[250px] -translate-x-20  text-left transition-all duration-300 ease-linear p-4">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24  text-left transition-all duration-300 ease-linear p-4">
                   <a href="https://github.com/DMCorner" target="_blank" className='w-full inline-flex justify-center'>
                   DMCorner
                   </a>
@@ -100,14 +100,14 @@ const HomePage = ({}) => {
           </div>
           <div>
             <div className=' h-64 px-5'>
-                <div className='h-20'>
-                  <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
+                <div className='h-12 '>
+                  <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear ">
                 Previous Work
-              </h1>
-                  
+              </h1>   
                 </div>
+                <div className='h-10'></div>
                 <Link href="/Previous-Work" passHref> 
-                  <button className="sidebar-icon w-1/2 inline-flex left-1/4" >
+                  <button className="sidebar-icon w-1/2 inline-flex left-1/4 space-y-5" >
                     <AiFillEdit size="32"/> Click Me 
                     
                   </button>
