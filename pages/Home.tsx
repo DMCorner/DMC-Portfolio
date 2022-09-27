@@ -135,7 +135,7 @@ const HomePage = ({}) => {
               {/* </div> */}
               </div>
             </div>
-              <div className=''>
+              <div className='px-5'>
               <h1 className="p-5 text-3xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
                 About Me
               </h1>
