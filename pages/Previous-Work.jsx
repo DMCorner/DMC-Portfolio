@@ -49,14 +49,17 @@ const Projects = () => {
           <div className="inline-flex flex-col px-10">
             <div>
               <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
-                Business Website
+                Login Shop
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
-              < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
+              < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
+              < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
               dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
-                A simple login page that asks the user for an input and gives specific corrections when said input is wrong.
+                My current project and work in progress.
+                A login page that will lead the user to a shopping app.
+                This project will display basic handling and even some unit testing with Jest.
               </div>
             </div>
           </div>
