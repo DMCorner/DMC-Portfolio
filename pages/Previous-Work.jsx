@@ -56,8 +56,7 @@ const Projects = () => {
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
               dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
-                A prototype website for a small business. The main features are an image slider and an email submission other than that
-                 this project allowed me to develop my basic HTML and CSS skills.
+                A simple login page that asks the user for an input and gives specific corrections when said input is wrong.
               </div>
             </div>
           </div>
@@ -65,15 +64,15 @@ const Projects = () => {
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
               <a href="https://www.air-vent-tech-ltd.co.uk/"><button className=''>
-              <img src='avt1.png' className=' h-60 w-full rounded-3xl hover:rounded-xl hover:scale-110
+              <img src='log1.png' className=' h-60 w-full rounded-3xl hover:rounded-xl hover:scale-110
                 transition-all duration-300 ease-linear border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
                 </button></a>
                 </div>
             </div>
             <div className='h-10'></div>
-                <a href="https://www.air-vent-tech-ltd.co.uk/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
-                <a href="https://github.com/DMCorner/Businesswebsite"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
+                <a href="https://login-shop.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/Login-Shop"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
