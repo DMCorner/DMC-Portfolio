@@ -59,7 +59,7 @@ const Projects = () => {
               dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
                 My current project and work in progress.
                 A login page that will lead the user to a shopping app.
-                This project will display basic handling and even some unit testing with Jest.
+                This project will display basic handling and even some unit testing with Jest.&nbsp;
               </div>
             </div>
           </div>
