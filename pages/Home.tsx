@@ -142,7 +142,7 @@ const HomePage = ({}) => {
               <div className='h-5 '></div>
                 <div className="text-lg text-gray-900 dark:text-gray-300 text-left transition-all duration-300 ease-linear
                 dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl">
-                Studying Mathematics has given me a keen mind for logical problem solving which is not only transferable but simulatneousely key
+                Studying Mathematics has given me a keen mind for logical problem solving which is not only transferable but simultaneousely key
                 in software development.  
                 During my time at the University of Hertfordshire I took several modules involving programming and found myself not only passionate
                 about these topics but also excelling at them. Thus after graduating I it took upon myself to learn to code.
