@@ -39,38 +39,38 @@ const HomePage = ({}) => {
               <div className='grid grid-cols-2 grid-rows-4 space-y-5'>
 
                 
-                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl
+                <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl
                 translate-y-5">
-                 <AiFillMail size="30" className='translate-x-3 -translate-y-1'/>
+                 <AiFillMail size="30" className='translate-x-3 -translate-y-1 p-2'/>
                 </div>
-                <div className= "sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
-                   <a href="mailto:danielmichaelcorner@gmail.com" className='w-full inline-flex justify-center'>
-                  Danielmichaelcorner@gmail.com
+                <div className= "sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
+                   <a href="mailto:danielmichaelcorner@gmail.com" className='w-full inline-flex text-center text-sm justify-center'>
+                  danielmichaelcorner<br></br>@gmail.com
                   </a></div>
                 
-                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl">
+                <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl">
                   <AiFillPhone size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
                    <a href="tel:+07476889388" className='w-full inline-flex justify-center'>
                    07476-889388</a>
                 </div>
                 
-                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
+                <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
                   <AiFillLinkedin size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
 
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24  text-left transition-all duration-300 ease-linear ">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24  text-left transition-all duration-300 ease-linear ">
                   <a href="https://www.linkedin.com/in/daniel-corner-409128148/ " target="_blank" className='w-full inline-flex justify-center'>
                   Daniel Corner
                   </a>
                 </div>
                 
-                <div className="h-12 w-16 text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
+                <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
                   <AiFillGithub size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
 
-                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-[255px] -translate-x-24  text-left transition-all duration-300 ease-linear p-4">
+                <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24  text-left transition-all duration-300 ease-linear p-4">
                   <a href="https://github.com/DMCorner" target="_blank" className='w-full inline-flex justify-center'>
                   DMCorner
                   </a>
@@ -115,13 +115,13 @@ const HomePage = ({}) => {
 
               <div className='h-5'></div>
                 <div className='px-5 grid grid-rows-3 grid-cols-3  place-content-center text-blue-400 dark:text-green-500'>
-              < SiHtml5 className="h-24 w-24 px-2 transition-all duration-300 ease-linear "/>
-             < SiCss3 className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
-             < SiJavascript className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
-             < SiReact className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
+              < SiHtml5 className="h-full w-full px-2 transition-all duration-300 ease-linear "/>
+             < SiCss3 className="h-full w-full px-2 transition-all duration-300 ease-linear"/>
+             < SiJavascript className="h-full w-full px-2 transition-all duration-300 ease-linear"/>
+             < SiReact className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
              {/* < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/> */}
-              < SiNextdotjs className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
-             < SiTailwindcss className="h-24 w-24 px-2 transition-all duration-300 ease-linear"/>
+              < SiNextdotjs className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
+             < SiTailwindcss className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
                </div>
                 </div>
               
