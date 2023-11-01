@@ -52,8 +52,8 @@ const HomePage = ({}) => {
                   <AiFillPhone size="30" className='translate-x-3 -translate-y-0.5'/>
                 </div>
                 <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
-                   <a href="tel:+07476889388" className='w-full inline-flex justify-center'>
-                   07476-889388</a>
+                   <a href="tel:+07300822398" className='w-full inline-flex justify-center'>
+                   07300-822398</a>
                 </div>
                 
                 <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
