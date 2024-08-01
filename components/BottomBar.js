@@ -12,7 +12,7 @@ const BottomBar = () => {
 
 const LinkedIn = () => {
   return (
-      <a href="https://www.linkedin.com/in/daniel-corner-409128148/" className='sidebar-icon'>
+      <a href="https://linkedin.com/in/daniel-c-409128148" className='sidebar-icon'>
       <AiFillLinkedin    className='sidebar-icon p-1'  ></AiFillLinkedin>
       </a>
   )
