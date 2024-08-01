@@ -21,7 +21,7 @@ const Projects = () => {
               < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
-              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-54">
                 My first ReactJS project. Visualizes Merge, Heap, Quick and Bubble sort on an array of length 100. 
                 This project mostly developed my basic JS skills along with getting comfortable with animations in react and updating the virtualDOM.
               </div>
@@ -45,37 +45,41 @@ const Projects = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------------------------------------------------------ */}
       <div className="bg-gray-300 dark:bg-gray-700 px-4 transition-all duration-300 ease-linear">
-        <div className="pt-20 grid grid-cols-2 p-10">
+      <div className="pt-20 grid grid-cols-2 p-10">
           <div className="inline-flex flex-col px-10">
             <div>
-              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
-                Login Shop
+              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 
+              rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear
+              ">
+                Cinema Website
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
+              {/* < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
+              < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
-              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
-                My current project and work in progress.
-                A login page that will lead the user to a shopping app.
-                This project will display basic handling and even some unit testing with Jest.&nbsp;
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-62">
+              A movie and series browsing website built with NextJS, TailwindCSS, Redux, React-Slick Carousel and OMDb API.
+              The website uses OMDb to pull movie and series data from IMDb into a Redux store which is then displayed on the page.
+                
               </div>
             </div>
           </div>
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
-              <a href="https://login-shop.vercel.app/"><button className=''>
-              <img src='log1.png' className=' h-60 w-full rounded-3xl hover:rounded-xl hover:scale-110
-                transition-all duration-300 ease-linear border-4 hover:border-red-500 dark:hover:border-green-600'>
+              <a href="https://cinema-third-main.vercel.app/"><button className=''>
+              <img src='cin1.png' className='h-60 w-full rounded-3xl hover:rounded-xl
+                transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
                 </button></a>
                 </div>
             </div>
-            <div className='h-10'></div>
-                <a href="https://login-shop.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
-                <a href="https://github.com/DMCorner/Login-Shop"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
+            <div className='h-10 w-full'></div>
+                <a href="https://cinema-third-main.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/cinema-third-main"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
         </div>
       </div>
@@ -94,7 +98,7 @@ const Projects = () => {
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear
-              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-54">
               This project was my first venture into modern webdev. Though a challenge at first I was happy to learn the strengths and capabilities of
                current frameworks allowing my skill set to become closer to a professional webdev role.
                 
@@ -119,43 +123,39 @@ const Projects = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------------------------------------------------------------ */}
       <div className="bg-gray-300 dark:bg-gray-700 transition-all duration-300 ease-linear">
-        <div className="pt-20 grid grid-cols-2 p-10">
+        {/* <div className="pt-20 grid grid-cols-2 p-10">
           <div className="inline-flex flex-col px-10">
             <div>
-              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 
-              rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear
-              ">
-                Cinema Website
+              <h1 className="text-xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white dark:text-gray-200 text-center transition-all duration-300 ease-linear">
+                Login Shop
               </h1>
             <div className="flex flex-row flex-wrap justify-center text-blue-400 dark:text-green-500">
-              {/* < SiReact className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/> */}
-              < SiRedux className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiNextdotjs className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               < SiTailwindcss className="h-6 w-6 mx-4 my-4 transition-all duration-300 ease-linear"/>
               </div>
               <div className="text-lg text-gray-900 dark:text-gray-300 text-center transition-all duration-300 ease-linear 
-              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-48">
-              A movie and series browsing website built with NextJS, TailwindCSS, Redux, React-Slick Carousel and OMDb API.
-              The website uses OMDb to pull movie and series data from IMDb into a Redux store which is then displayed on the page.
-                
+              dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl h-45">
+                My current project and work in progress.
+                A login page that will lead the user to a shopping app.
+                This project will display basic handling and even some unit testing with Jest.&nbsp;
               </div>
             </div>
           </div>
           <div className="w-full ">
             <div className="flex flex-row flex-wrap"> 
             <div className=''>
-              <a href="https://cinema-third-main.vercel.app/"><button className=''>
-              <img src='cin1.png' className='h-60 w-full rounded-3xl hover:rounded-xl
-                transition-all duration-300 ease-linear hover:scale-110 border-4 hover:border-red-500 dark:hover:border-green-600'>
+              <a href="https://login-shop.vercel.app/"><button className=''>
+              <img src='log1.png' className=' h-60 w-full rounded-3xl hover:rounded-xl hover:scale-110
+                transition-all duration-300 ease-linear border-4 hover:border-red-500 dark:hover:border-green-600'>
                 </img>
                 </button></a>
                 </div>
             </div>
-            <div className='h-10 w-full'></div>
-                <a href="https://cinema-third-main.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
-                <a href="https://github.com/DMCorner/cinema-third-main"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
+            <div className='h-10'></div>
+                <a href="https://login-shop.vercel.app/"><button className='sidebar-icon w-1/2 inline-flex'><AiFillEye size="28"/>&nbsp;Website Link</button></a>
+                <a href="https://github.com/DMCorner/Login-Shop"><button className='sidebar-icon w-1/2 inline-flex'><SiGithub size="28"/>&nbsp;Github Code</button></a>
           </div>
-        </div>
+        </div> */}
       </div>
       
     </div>
@@ -183,3 +183,4 @@ export default function Home() {
     </div>
   );
 }
+
