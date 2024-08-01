@@ -1,6 +1,6 @@
 import SideBar from '../components/SideBar';
 import TopNavigation from "../components/TopNav.jsx";
-import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub } from "react-icons/si";
+import { SiHtml5 , SiJavascript , SiReact , SiCss3 , SiRedux , SiNextdotjs , SiTailwindcss , SiGithub, SiPython, SiCsharp, SiUnity, SiPytest } from "react-icons/si";
 import BottomBar from '../components/BottomBar';
 import Head from 'next/head';
 import { AiFillGithub, AiFillLinkedin, AiFillMail , AiFillPhone, AiFillEdit} from "react-icons/ai"
@@ -24,8 +24,9 @@ const HomePage = ({}) => {
               {/* </div> */}
               <div className='h-5'></div>
                 <div className="text-lg text-gray-900 dark:text-gray-300  text-left transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl">
-                Hello, I'm Daniel Corner. I am a math graduate turned software developer. This is my portfolio website.
-                Ideally this website will display my skills, previous achievements to a degree that employers deem desirable. 
+                Hello, I'm Daniel Corner. Welcome to my portfolio website. I am a math graduate turned programmer.
+                I am working as an automation/test engineer at Boeing Defence UK.
+                This website aims to display my skills and previous achievements. 
                 </div>
           </div>
           <div>
@@ -41,7 +42,7 @@ const HomePage = ({}) => {
                 
                 <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl
                 translate-y-5">
-                 <AiFillMail size="30" className='translate-x-3 -translate-y-1 p-2'/>
+                 <AiFillMail size="30" className='-translate-x-1 -translate-y-0.5'/>
                 </div>
                 <div className= "sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
                    <a href="mailto:danielmichaelcorner@gmail.com" className='w-full inline-flex text-center text-sm justify-center'>
@@ -49,7 +50,7 @@ const HomePage = ({}) => {
                   </a></div>
                 
                 <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear dark:bg-slate-600 bg-gray-400  p-3 rounded-l-3xl">
-                  <AiFillPhone size="30" className='translate-x-3 -translate-y-0.5'/>
+                  <AiFillPhone size="30" className='-translate-x-1 -translate-y-0.5'/>
                 </div>
                 <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24 transition-all  duration-300 ease-linear p-4 ">
                    <a href="tel:+07300822398" className='w-full inline-flex justify-center'>
@@ -57,17 +58,17 @@ const HomePage = ({}) => {
                 </div>
                 
                 <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
-                  <AiFillLinkedin size="30" className='translate-x-3 -translate-y-0.5'/>
+                  <AiFillLinkedin size="30" className='-translate-x-1 -translate-y-0.5'/>
                 </div>
 
                 <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24  text-left transition-all duration-300 ease-linear ">
-                  <a href="https://www.linkedin.com/in/daniel-corner-409128148/ " target="_blank" className='w-full inline-flex justify-center'>
+                  <a href="https://linkedin.com/in/daniel-c-409128148" target="_blank" className='w-full inline-flex justify-center'>
                   Daniel Corner
                   </a>
                 </div>
                 
                 <div className="h-12 w-full text-lg text-gray-900 dark:text-gray-300 transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-l-3xl">
-                  <AiFillGithub size="30" className='translate-x-3 -translate-y-0.5'/>
+                  <AiFillGithub size="30" className='-translate-x-1 -translate-y-0.5'/>
                 </div>
 
                 <div className="sidebar-icon rounded-l-none hover:rounded-l-none  w-full -translate-x-24  text-left transition-all duration-300 ease-linear p-4">
@@ -83,12 +84,13 @@ const HomePage = ({}) => {
           <div className=' h-64 px-5'>
               <div className='h-20'></div>
                <h1 className="p-5 text-3xl font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear">
-               My Tech Stack So Far
+               My Skills
                </h1>
                <div className='h-5'></div>
                <div className="text-lg text-gray-900 dark:text-gray-300 text-left transition-all duration-300 ease-linear  dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl">
-                Starting with HTML, CSS and JavaScript I learned the foundations of webdev. So far I also have experience with React, Next and Tailwind.
-                I look forward to learning and mastering as many languages and frameworks as I can.
+                Starting with JavaScript and React I learned the foundations of webdev.
+                At TSI I worked with Java, Selenium, SQL and passed the ISTQB.
+                During my time at Boeing I have been working with Python and Pytest.
                 </div>
 
                 
@@ -100,7 +102,7 @@ const HomePage = ({}) => {
           </div>
           <div>
             <div className=' h-64 px-5'>
-                <div className='h-12 '>
+                <div className=' '>
                   <h1 className=" text-3xl p-5 font-semibold bg-gray-700 dark:bg-gray-800 rounded-3xl text-white text-center transition-all duration-300 ease-linear ">
                 Previous Work
               </h1>   
@@ -115,13 +117,13 @@ const HomePage = ({}) => {
 
               <div className='h-5'></div>
                 <div className='px-5 grid grid-rows-3 grid-cols-3  place-content-center text-blue-400 dark:text-green-500'>
-              < SiHtml5 className="h-full w-full px-2 transition-all duration-300 ease-linear "/>
-             < SiCss3 className="h-full w-full px-2 transition-all duration-300 ease-linear"/>
+              < SiPython className="h-full w-full px-2 transition-all duration-300 ease-linear "/>
+             < SiCsharp className="h-full w-full px-2 transition-all duration-300 ease-linear"/>
              < SiJavascript className="h-full w-full px-2 transition-all duration-300 ease-linear"/>
-             < SiReact className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
+             < SiPytest className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
              {/* < SiRedux className="h-16 w-16 px-2 transition-all duration-300 ease-linear"/> */}
-              < SiNextdotjs className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
-             < SiTailwindcss className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
+              < SiUnity className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
+             < SiReact className="h-full w-full p-2 transition-all duration-300 ease-linear"/>
                </div>
                 </div>
               
@@ -142,10 +144,9 @@ const HomePage = ({}) => {
               <div className='h-5 '></div>
                 <div className="text-lg text-gray-900 dark:text-gray-300 text-left transition-all duration-300 ease-linear
                 dark:bg-slate-600 bg-gray-400 p-3 rounded-3xl">
-                Studying Mathematics has given me a keen mind for logical problem solving which is not only transferable but simultaneousely key
-                in software development.  
-                During my time at the University of Hertfordshire I took several modules involving programming and found myself not only passionate
-                about these topics but also excelling at them. Thus after graduating I it took upon myself to learn to code.
+                Studying Mathematics has given me an aptitude for logical problem solving which meant I could transfer with relative ease into software development.
+                In my free time I do some game development with unity and C#. One day I hope to post a demo here for visitor to try.
+                My hobbies are BJJ, reading and very nerdy boardgames.
                 </div>
                 <div className='h-5 '></div>
               </div>
